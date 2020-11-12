@@ -1,0 +1,19 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soldham1/DevConnectorApp.git"
+  },
+  "author": "Sam Oldham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soldham1/DevConnectorApp/issues"
+  },
+  "homepage": "https://github.com/Soldham1/DevConnectorApp#readme"
+}
