@@ -32,21 +32,21 @@ router.post(
 
             if(user) {
                 return res.status(400).json({ errors: [{ msg: 'User already exists' }] });
-            }
+            };
 
             // Get user gravatar
             const avatar = gravatar.url(email, {
                 s: '200',
                 r: 'pg',
                 d: 'mm'
-            })
+            });
 
             user = new User ({
                 name,
                 email,
                 avatar, 
                 password
-            })
+            });
 
             // Encrypt password
             // Anything that returns a promise use await
@@ -61,7 +61,7 @@ router.post(
                 user: {
                     id: user.id
                 }
-            }
+            };
 
             jwt.sign(payload, config.get( 'jwtSecret' ),
             { expiresIn: 360000 },
