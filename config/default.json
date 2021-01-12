@@ -1,6 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://sam123:sam123@devconnector.tat9n.mongodb.net/devconnector?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken",
-    "githubClientId": "b9f9beb04d6bbe5434ce",
-    "githubSecret": "d53588142d63bba447630e52a041259ce9b48e26"
+    "mongoURI": ***,
+    "jwtSecret": ***,
+    "githubClientId": ***,
+    "githubSecret": ***
 }
